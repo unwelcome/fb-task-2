@@ -1,3 +1,11 @@
+.link {
+  color: #1868ea;
+  cursor: pointer;
+}
+.link:hover {
+  color: #1861d5;
+}
+
 body {
   font-family: Arial, sans-serif;
   color: #292828;
@@ -17,6 +25,9 @@ button {
 }
 button:hover {
   background-color: #1eb513;
+}
+button:active {
+  background-color: #28ec1a;
 }
 
 /*# sourceMappingURL=style.css.map */

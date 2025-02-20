@@ -1,7 +1,22 @@
 $primary-btn-color: #24d317;
 $primary-btn-color-hover: #1eb513;
+$primary-btn-color-active: #28ec1a;
+
 $text-color: #292828;
+
+$link-color: #1868ea;
+$link-color-hover: #1861d5;
+
 $font-family: Arial, sans-serif;
+
+.link{
+    color: $link-color;
+    cursor: pointer;
+
+    &:hover{
+        color:$link-color-hover;
+    }
+}
 
 body {
     font-family: $font-family;
@@ -21,6 +36,10 @@ button {
     cursor: pointer;
 
     &:hover {
-        background-color: $primary-btn-color-hover; // затемнение цвета при наведении
+        background-color: $primary-btn-color-hover;
+    }
+
+    &:active{
+        background-color: $primary-btn-color-active;
     }
 }
