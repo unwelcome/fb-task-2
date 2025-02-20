@@ -1,0 +1,26 @@
+$primary-btn-color: #24d317;
+$primary-btn-color-hover: #1eb513;
+$text-color: #292828;
+$font-family: Arial, sans-serif;
+
+body {
+    font-family: $font-family;
+    color: $text-color;
+}
+
+.column {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: $primary-btn-color;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $primary-btn-color-hover; // затемнение цвета при наведении
+    }
+}
